@@ -1,4 +1,4 @@
-public class Dimensions
+public class Rectangle
 {
 	private int Length = 1;
 	private int Width = 1;
