@@ -1,15 +1,19 @@
 public class Rectangle
 {
-	private int Length = 1;
-	private int Width = 1;
+	private int length = 1;
+	private int width = 1;
 	private boolean lValid;
 	private boolean wValid;
+	private int area;
+	private int perimeter;
 	
-	public void setlength(int length)
+//--------------------	
+//Length
+	public void setLength(int len)
 	{
-		if(length <= 40 && length > 0)
+		if(len <= 40 && len > 0)
 		{
-			Length = length;
+			length = len;
 			lValid = true;
 		}
 		else
@@ -22,7 +26,7 @@ public class Rectangle
 	{
 		if(lValid = true)
 		{
-			return Length;
+			return length;
 		}
 		else
 		{
@@ -30,12 +34,13 @@ public class Rectangle
 		}
 	}
 //--------------------
-	
-	public void setwidth(int width)
+//Width
+
+	public void setWidth(int wid)
 	{
-		if(width <= 40 && width > 0)
+		if(wid <= 40 && wid > 0)
 		{
-			Width = width;
+			width = wid;
 			wValid = true;
 		}
 		else
@@ -44,20 +49,22 @@ public class Rectangle
 			wValid = false;
 		}
 	}
-	public int getwidth()
+	public int getWidth()
 	{
 		if(wValid = true)
 		{
-			return Width;
+			return width;
 		}
 		else
 		{
 			return 0;
 		}
 	}
+
 //--------------------
+
  public String toString()
  		{  
-  			return "Length = " +Length+", Width = " + Width;  
+  			return "Length = " +length+", Width = " + width;  
  		} 
 }
