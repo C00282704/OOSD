@@ -1,4 +1,4 @@
-public class Rectangle
+public class lab2bq2
 {
 public static void main(String args []) 
 	{ 
