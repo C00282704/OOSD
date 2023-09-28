@@ -2,7 +2,7 @@ public class lab2bq2
 {
 public static void main(String args []) 
 	{ 
-		Dimensions recA = new Dimensions();
+		Rectangle recA = new Rectangle();
 		recA.setLength(7);
 		recA.setWidth(34);
 		
