@@ -22,7 +22,7 @@ public class Rectangle
 			lValid = false;
 		}
 	}
-	public int getlength()
+	public int getLength()
 	{
 		if(lValid = true)
 		{
@@ -65,6 +65,6 @@ public class Rectangle
 
  public String toString()
  		{  
-  			return "Length = " +length+", Width = " + width;  
+  			return "Length = " + length + ", Width = " + width;  
  		} 
 }
