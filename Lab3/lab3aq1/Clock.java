@@ -11,7 +11,7 @@ class Clock
 		double t = System.currentTimeMillis();
         while( i < 60)
             {
-                if(t+1000 == System.currentTimeMillis())
+                if(t+1000 <= System.currentTimeMillis())
                 {
                 	clock.tick();
                 	System.out.println(clock.getSecond());
