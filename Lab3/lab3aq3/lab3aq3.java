@@ -4,7 +4,7 @@ class lab3aq2
     {
 		savingsAccount.modifyInterestRate(4);
 		
-		BankCustomer saver1 = new BankCustomer("John Smith","22nd Oak Street");
+		BankCustomer saver1 = new BankCustomer("John Doe","22nd Oak Street");
 		
 		saver1.addAccount(2000);
 		saver1.addAccount(3000);
@@ -14,7 +14,7 @@ class lab3aq2
 		
 		System.out.println(" ");
 		
-		BankCustomer saver2 = new BankCustomer("John Smith","22nd Oak Street");
+		BankCustomer saver2 = new BankCustomer("Emily Smithenson","23rd Church Road");
 		
 		saver2.addAccount(2500);
 		saver2.addAccount(300);
