@@ -1,5 +1,6 @@
 package Q2;
-
+//Student Name: Tadgh Fitzpatrick
+//Student ID  : C00282704
 public abstract class Person
 {
 	private String name;
