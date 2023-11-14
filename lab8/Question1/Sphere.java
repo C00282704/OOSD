@@ -1,3 +1,5 @@
+//Student Name: Tadgh Fitzpatrick
+//Student ID  : C00282704
 public class Sphere extends ThreeDShape
 {
     private double radius;
