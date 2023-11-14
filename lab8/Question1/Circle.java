@@ -1,3 +1,5 @@
+//Student Name: Tadgh Fitzpatrick
+//Student ID  : C00282704
 public class Circle extends TwoDShape
 {
 	private double radius;
